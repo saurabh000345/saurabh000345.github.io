@@ -1,0 +1,8 @@
+{
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 2000,
+	"editor.fontFamily": "'SF Pro Display', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+	"editor.tabSize": 6,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.wordWrap": "on"
+}

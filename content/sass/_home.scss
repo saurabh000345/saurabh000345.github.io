@@ -1,7 +1,38 @@
-.home {
-    height: 100%;
-    padding-top: 40vh;
-    overflow: hidden;
-    align-items: center;
-    text-align: center;
+@import 'config';
+
+.home{
+	padding: 1rem 4rem;
+	margin: 2rem 0rem;
+	font-family: $spartan;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	.me{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		margin: auto;
+
+		.myimg{
+			height: 40vh;
+			width: 40vh;
+			margin-bottom: 2rem;
+		}
+	}
+	.about{
+		padding: 2rem 0rem;
+	}
+}
+
+@media(min-width: 921px){
+	.about{
+
+		p{
+			margin: auto;
+			width: 60%;
+			margin: 1rem auto;
+		}
+	}
 }
